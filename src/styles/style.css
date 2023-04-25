@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.hide-menu-list {
+  opacity: 0;
+}
+
+.show-menu-list {
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.products-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.products-wrapper {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.react-multi-carousel-track {
+  gap: 15px;
+}
+
+.react-multi-carousel-track li {
+}
